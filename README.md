@@ -1,4 +1,4 @@
-from datetime import datetim
+from datetime import datetime
 
 def daily_message():
     now = datetime.now()
