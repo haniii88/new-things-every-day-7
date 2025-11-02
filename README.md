@@ -1,2 +1,8 @@
-# new-things-every-day-7
-New things every day #7
+from datetime import datetime
+
+def daily_message():
+    now = datetime.now()
+    print(f"Hello GitHub! Today is {now.strftime('%Y-%m-%d %H:%M:%S')}")
+
+if __name__ == "__main__":
+    daily_message()
